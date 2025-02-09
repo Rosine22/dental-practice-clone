@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
   <title>Dental Practice Clone</title>
 </head>
 <body>
-  <header class="p-20 ">
-    <div class="flex justify-around">
+  <header class="p-20">
+    <div class="flex justify-around gap-[120px]">
       <!--left side nav bar-->
       <div class="flex gap-6 justify-items-start">
-        <div class="flex mx-10">
+        <div class="flex mx-8">
           <img src="./images/dental-logo.svg" alt="Logo" class="h-28">
         </div>
         <nav>
@@ -33,6 +33,19 @@
         
       </div>
     </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-12">
+      <!-- Left: Image -->
+      <div class="relative px-1">
+        <img src="./images/doc.jpeg" alt="doc" class="w-full h-full object-cover">
+    </div>
+
+    <!-- Right: Text Section -->
+    <div class="lex flex-col justify-center items-center p-10 text-center gap-4">
+      <p class="text-9xl text-sky-800 text-bold">Welcome</p>
+        <p class="text-3xl mb-6  text-sky-900 mt-10 px-[20px]">We're glad you're here! With our cross-generational concept, specializing in the fields of general dentistry and aesthetics, all patients are welcome - from pediatric dentistry to geriatric dentistry, we tailor our treatment precisely to your needs.
+          Dental practice Wernitz reception Jasmin Brigitte
+          </p>
+</div>
   </header>
 </body>
 </html>
