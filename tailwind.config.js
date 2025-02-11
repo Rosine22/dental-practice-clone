@@ -8,7 +8,6 @@ export default {
         smallfonts: SofiaPro-Regular - 400,
         smaller:sans-serif,
         darkblue: rgb(0, 59, 92),
-        sofia: ['SofiaPro-Bold', 'Helvetica', 'Arial', 'sans-serif'],
       }
     } 
   }, 
