@@ -4,10 +4,11 @@ export default {
     extend: 
     {
       colors:{
-        Bigfonts :SofiaPro-Bold - 700 ,
-        smallfonts: SofiaPro-Regular - 400,
-        smaller:sans-serif,
         darkblue: rgb(0, 59, 92),
+      },
+      fontFamily:{
+       bigFont:["SofiaPro-Bold, Helvetica, Arial, sans-serif, sans-serif"],
+       smallFont:["SofiaPro-Regular, Helvetica, Arial, sans-serif"],
       }
     } 
   }, 
