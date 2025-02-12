@@ -7,15 +7,16 @@
   <title>Dental Practice Clone</title>
 </head>
 <body>
-  <header class="h-20 p-15">
-    <div class="flex justify-around gap-[120px]">
+  <header class="lg:h-20 lg:p-15 h-10 p-8">
+    <div class="lg:flex justify-around lg:gap-[120px] gap-[60px]">
       <!--left side nav bar-->
-      <div class="flex gap-6 justify-items-start">
-        <div class="flex mx-10">
-          <img src="./src/images/dental-logo.svg" alt="Logo" class="h-[90px]">
+      <div class="lg:flex lg:gap-6 justify-items-start">
+        <div class="lg:flex flex justify-around lg:mx-10 pt-10 lg: -mt-9 space-x-7">
+          <img src="./src/images/dental-logo.svg" alt="Logo" class="lg:h-[90px] h-[94px] mr-[90px]">
+          <img class="lg:hidden relative top-2 h-6 w-6 p-4 rounded-full" src="./src/images/menu-icon.svg" alt="">
         </div>
         <nav>
-          <ul class="flex space-x-6 font-bold text-2xl text-sky-900">
+          <ul class="hidden lg:flex lg:space-x-6 lg:font-bold lg:text-2xl lg:text-sky-900 ">
             <li><a href="#" class="">Practice</a></li>
             <li><a href="#" class="">Team</a></li>
             <li><a href="#" class="">FAQ</a></li>
@@ -23,9 +24,9 @@
         </nav>
       </div>
       <!--right side-->
-      <div class="flex mx-12 justify-end"> 
+      <div class="lg:flex lg:mx-12 lg:justify-end"> 
         <nav>
-      <ul class="flex space-x-6 items-center text-[15px] text-sky-900">
+      <ul class="hidden lg:flex lg:space-x-6 lg:items-center lg:text-[15px] lg:text-sky-900">
         <li><button class="flex bg-yellow-300 px-4 py-2 rounded-lg font-bold shadow-md hover:bg-blue-300 hover:shadow-lg transition"><img src="./src/images/phone.svg" alt="location" class="h-7 mr-2">+49 2241 27651</button></li>
         <li><button class="flex bg-yellow-300 px-4 py-2 rounded-lg font-bold shadow-md hover:bg-blue-300 hover:shadow-lg transition"><img src="./src/images/calender.svg" alt="location" class="h-7 mr-2">Book an appointment</button></li>
       </ul>
@@ -38,28 +39,28 @@
   <!--<div class="relative w-full h-full">
     <img src="./images/back1.svg" alt="background" class="w-full h-full object-cover">
   </div>-->
-  <!
-  <div class="relative">
-    <div class="grid grid-cols-1 md:grid-cols-2">
+
+  <div class="lg:relative relative">
+    <div class="lg:grid lg:grid-cols-1 lg:md:grid-cols-2 grid grid-cols-1 md:grid-cols-2">
       <!-- Left: Image -->
-      <div class="pt-15">
-        <img src="./src/images/doc.jpeg" alt="doc" class="w-[709px] h-[473px] object-cover rounded-lg">
+      <div class="lg:pt-15 pt-[200px]">
+        <img src="./src/images/doc.jpeg" alt="doc" class="lg:w-[709px] lg:h-[473px] lg:object-cover lg:rounded-lg w-[376px] h-[287px] object-cover rounded-lg">
     </div>
     <!-- Right: Text Section -->
-    <div class="flex flex-col justify-center items-center p-7 text-center gap-4 max-w-7xl mx-auto px-10 py-12">
-      <p class=" text-[130px] font-bold text-[#003B5C] mt-[100px] relative right-62">Welcome</p>
-        <p class="text-[23px] mb-6 text-smallfonts text-bold text-sky-950 mt-15 leading-relaxed text-left">We're glad you're here! With our cross-generational concept, specializing in the fields of general dentistry and aesthetics, all patients are welcome - from pediatric dentistry to geriatric dentistry, we tailor our treatment precisely to your needs.
+    <div class="flex flex-col justify-center items-center p-7 text-center gap-4 max-w-7xl mx-auto px-10 py-12 lg:flex lg:flex-col lg:justify-center lg:items-center lg:p-7 lg:text-center lg:gap-4 lg:max-w-7xl lg:mx-auto lg:px-10 lg:py-12">
+      <p class="text-[45px] font-bold text-[#003B5C] relative top-25 right-11 -mt-[510px] lg:text-[130px] lg:font-bold lg:text-[#003B5C] lg:mt-[100px] lg:relative lg:right-62">Welcome</p>
+        <p class="text-[20px] mb-6 text-smallfonts-400 text-bold text-sky-950 mt-[396px] leading-relaxed text-left lg:text-[23px] lg:mb-6 lg:text-smallfonts lg:text-bold lg:text-sky-950 lg:mt-18 lg:leading-relaxed lg:text-left">We're glad you're here! With our cross-generational concept, specializing in the fields of general dentistry and aesthetics, all patients are welcome - from pediatric dentistry to geriatric dentistry, we tailor our treatment precisely to your needs.
         </p>
   </div>
 </div>
 <section>
-  <div class="relative bottom-20">
-    <div class="ml-[100px] relative w-[65%] h-[600px] top-32">
-        <div class="absolute top-0 right-0">
-            <img src="./src/images/pic55.jpeg" class="w-[610px] h-[480px] rounded-lg object-cover">
+  <div class="relative bottom-14 lg:relative lg:bottom-20">
+    <div class="mx-auto relative w-[80%] h-[230px] top-16 lg:ml-[100px] lg:relative lg:w-[65%] lg:h-[600px] lg:top-32 ">
+        <div class="absolute top-0 right-0 lg:absolute lg:top-0 lg:right-0 ">
+            <img src="./src/images/pic55.jpeg" class="w-[275px] h-[183px] rounded-lg object-cover lg:w-[610px] lg:h-[480px] lg:rounded-lg lg:object-cover">
         </div>
-        <div class="absolute bottom-0 left-0">
-            <img src="./src/images/pic1.webp" class="w-[420px] h-[330px] rounded-lg object-cover">
+        <div class="absolute bottom-0 left-0 lg:absolute lg:bottom-0 lg:left-0">
+            <img src="./src/images/pic1.webp" class="w-[118px] h-[118px] rounded-lg object-cover lg:w-[420px] lg:h-[330px] lg:rounded-lg lg:object-cover">
         </div>
     </div>
 </div>
@@ -67,7 +68,7 @@
 <section class=>
   <div>
 <div class=" mt-20 text-darkblue font-Bigfonts text-9xl font-medium text-center mx-auto relative bottom-30"> 
-  <p class="text-9xl text-Bigfont text-[#003B5C]">Our practice</p>
+  <p class="text-4xl mt-[200px] text-Bigfont text-[#003B5C] lg:text-9xl lg:text-Bigfont lg:text-[#003B5C]">Our practice</p>
 </div>
 <div class="flex justify-center gap-3 text-xl text-darkblue font-smallfonts space-x-6 text-sky-900 font-medium -mt-[120px]">
   <p>A relaxed atmosphere, personal contact <br> with our patients and a team with their<br> hearts in the right place - that's what<br> defines us. And we are proud of that.</p>
